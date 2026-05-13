@@ -3,7 +3,7 @@
 const STORIES = [
   {
     id: 1,
-    image: "stories/1.jpg",
+    image: "Stories/1.jpg",
     level: "A1",
     levelColor: "#009246",
     title: "Una giornata in città",
@@ -35,7 +35,7 @@ const STORIES = [
   },
   {
     id: 2,
-    image: "stories/2.png",
+    image: "Stories/2.png",
     level: "A1",
     levelColor: "#009246",
     title: "Al ristorante",
@@ -66,7 +66,7 @@ const STORIES = [
   },
   {
     id: 3,
-    image: "stories/3.png",
+    image: "Stories/3.png",
     level: "A1",
     levelColor: "#009246",
     title: "Una telefonata con la mamma",
@@ -96,7 +96,7 @@ const STORIES = [
   },
   {
     id: 4,
-    image: "stories/4.png",
+    image: "Stories/4.png",
     level: "A1–A2",
     levelColor: "#E67E22",
     title: "Una giornata di pioggia",
@@ -128,7 +128,7 @@ const STORIES = [
   },
   {
     id: 5,
-    image: "stories/5.png",
+    image: "Stories/5.png",
     level: "A2",
     levelColor: "#CE2B37",
     title: "In palestra",
@@ -157,7 +157,7 @@ const STORIES = [
   },
   {
     id: 6,
-    image: "stories/6.png",
+    image: "Stories/6.png",
     level: "A2",
     levelColor: "#CE2B37",
     title: "Il mio lavoro",
@@ -188,7 +188,7 @@ const STORIES = [
   },
   {
     id: 7,
-    image: "stories/7.png",
+    image: "Stories/7.png",
     level: "A2",
     levelColor: "#CE2B37",
     title: "Una visita dal medico",
@@ -220,7 +220,7 @@ const STORIES = [
   },
   {
     id: 8,
-    image: "stories/8.png",
+    image: "Stories/8.png",
     level: "A2",
     levelColor: "#CE2B37",
     title: "Una festa di compleanno",
@@ -254,7 +254,7 @@ const STORIES = [
   },
   {
     id: 9,
-    image: "stories/9.png",
+    image: "Stories/9.png",
     level: "A2",
     levelColor: "#CE2B37",
     title: "In vacanza a Roma",
@@ -286,7 +286,7 @@ const STORIES = [
   },
   {
     id: 10,
-    image: "stories/10.png",
+    image: "Stories/10.png",
     level: "A2",
     levelColor: "#CE2B37",
     title: "Imparare una nuova lingua",
