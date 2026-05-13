@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn Italian with interactive flashcards. 60 essential verbs with full conjugations, examples, and grammar tips.">
+  <title>Lingua Italiana · Learn Italian Interactively</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <span class="brand-flag">🇮🇹</span>
+        <span class="brand-text">Lingua Italiana</span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#" class="nav-link" data-section="verbs">Verbs</a></li>
+        <li><a href="#" class="nav-link" data-section="vocab">Vocabulary</a></li>
+        <li><a href="#" class="nav-link" data-section="phrases">Phrases</a></li>
+        <li><a href="#" class="nav-link" data-section="grammar">Grammar</a></li>
+        <li><a href="#" class="nav-link" data-section="quiz">Quiz <span class="soon">soon</span></a></li>
+        <li><a href="#" class="nav-link" data-section="stories">Stories <span class="soon">soon</span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="hero-title">Master Italian, step by step</h1>
+      <p class="hero-subtitle">Verbs · Vocabulary · Phrases · Grammar · Quiz</p>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <!-- ===== HOME PAGE ===== -->
+    <section id="section-home" class="content-section active">
+
+      <div class="home-stats">
+        <div class="home-stat">
+          <span class="home-stat-n">60</span>
+          <span class="home-stat-l">Verbs</span>
+        </div>
+        <div class="home-stat-sep"></div>
+        <div class="home-stat">
+          <span class="home-stat-n">20</span>
+          <span class="home-stat-l">Vocab Themes</span>
+        </div>
+        <div class="home-stat-sep"></div>
+        <div class="home-stat">
+          <span class="home-stat-n">240</span>
+          <span class="home-stat-l">Words</span>
+        </div>
+        <div class="home-stat-sep"></div>
+        <div class="home-stat">
+          <span class="home-stat-n">🔊</span>
+          <span class="home-stat-l">Audio</span>
+        </div>
+      </div>
+
+      <div class="home-group">
+        <p class="home-group-label">Available now</p>
+        <div class="home-main-cards">
+
+          <button class="home-card home-card-live" data-section="verbs">
+            <div class="home-card-top hc-red">
+              <span class="home-card-emoji">🔤</span>
+              <span class="home-card-chip hc-chip-red">60 verbs</span>
+            </div>
+            <div class="home-card-body">
+              <span class="home-card-it">Verbi</span>
+              <span class="home-card-en">Verbs</span>
+              <p class="home-card-desc">Interactive flashcards · full conjugations · 6 tenses · audio pronunciation</p>
+              <span class="home-card-cta">Start learning →</span>
+            </div>
+          </button>
+
+          <button class="home-card home-card-live" data-section="vocab">
+            <div class="home-card-top hc-green">
+              <span class="home-card-emoji">📚</span>
+              <span class="home-card-chip hc-chip-green">240 words</span>
+            </div>
+            <div class="home-card-body">
+              <span class="home-card-it">Vocabolario</span>
+              <span class="home-card-en">Vocabulary</span>
+              <p class="home-card-desc">20 themed word lists with images and example sentences</p>
+              <span class="home-card-cta">Start learning →</span>
+            </div>
+          </button>
+
+          <button class="home-card home-card-live" data-section="phrases">
+            <div class="home-card-top hc-amber">
+              <span class="home-card-emoji">💬</span>
+              <span class="home-card-chip hc-chip-amber">8 topics</span>
+            </div>
+            <div class="home-card-body">
+              <span class="home-card-it">Frasi</span>
+              <span class="home-card-en">Phrases</span>
+              <p class="home-card-desc">96 essential phrases · greetings, travel, restaurant &amp; more</p>
+              <span class="home-card-cta">Start learning →</span>
+            </div>
+          </button>
+
+          <button class="home-card home-card-live" data-section="grammar">
+            <div class="home-card-top hc-blue">
+              <span class="home-card-emoji">📖</span>
+              <span class="home-card-chip hc-chip-blue">A1 · A2</span>
+            </div>
+            <div class="home-card-body">
+              <span class="home-card-it">Grammatica</span>
+              <span class="home-card-en">Grammar</span>
+              <p class="home-card-desc">16 lessons · rules, tables, examples &amp; quizzes</p>
+              <span class="home-card-cta">Start learning →</span>
+            </div>
+          </button>
+
+        </div>
+      </div>
+
+      <div class="home-group">
+        <p class="home-group-label">Coming soon</p>
+        <div class="home-soon-cards">
+
+
+
+          <div class="home-card home-card-soon">
+            <div class="home-card-top hc-purple">
+              <span class="home-card-emoji">🎯</span>
+              <span class="home-card-chip hc-chip-soon">Soon</span>
+            </div>
+            <div class="home-card-body">
+              <span class="home-card-it">Quiz</span>
+              <span class="home-card-en">Test yourself</span>
+              <p class="home-card-desc">Conjugation drills, sentence exercises, and scoring</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===== VERBS ===== -->
+    <section id="section-verbs" class="content-section">
+
+      <div class="controls">
+        <select id="fc-category" aria-label="Filter by category"></select>
+        <button id="fc-shuffle" class="btn-pill">🔀 Shuffle</button>
+        <button id="fc-reset" class="btn-pill">↺ Reset</button>
+        <button id="fc-speed" class="btn-pill" aria-label="Speech speed" title="Toggle slow/normal speech">🐢 Slow</button>
+        <div class="stats">
+          <span id="fc-progress">1 / 60</span>
+          <span class="stats-divider">·</span>
+          <span id="fc-known">0 known</span>
+        </div>
+      </div>
+
+      <div id="fc-dots" class="progress-dots" aria-label="Card progress"></div>
+
+      <div class="card-section">
+        <div class="card-wrap">
+          <div id="fc-card" class="card" tabindex="0" role="button" aria-label="Flashcard. Click to flip.">
+
+            <div id="fc-front" class="card-face card-front">
+              <div id="fc-icon-bg" class="icon-bg" aria-hidden="true"></div>
+              <span id="fc-category-badge" class="cat-pill">Auxiliary</span>
+
+              <div class="verb-row">
+                <h2 id="fc-verb" class="verb-text">essere</h2>
+                <button id="fc-speak-verb" class="speak-btn-large" aria-label="Pronounce this verb" title="Listen">
+                  <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                    <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                  </svg>
+                </button>
+              </div>
+
+              <p id="fc-ipa" class="ipa-text">/ˈɛs.se.re/</p>
+              <span id="fc-hint-translation" class="translation-hint">to be</span>
+              <span class="tap-hint">Tap to flip</span>
+            </div>
+
+            <div id="fc-back" class="card-face card-back">
+              <div id="fc-back-header" class="back-header">
+                <div id="fc-back-icon" class="back-icon" aria-hidden="true"></div>
+                <div class="back-header-text">
+                  <div class="back-header-row">
+                    <span id="fc-back-verb" class="back-verb">essere</span>
+                    <button id="fc-speak-verb-back" class="speak-btn-small" aria-label="Pronounce this verb" title="Listen">
+                      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                        <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+                      </svg>
+                    </button>
+                    <span id="fc-back-translation" class="back-translation">to be</span>
+                  </div>
+                  <div id="fc-aux-info" class="aux-info">aux: essere · pp: stato · ger: essendo</div>
+                </div>
+              </div>
+
+              <div class="back-grid">
+                <section class="back-panel">
+                  <h3 class="panel-title">Meaning</h3>
+                  <p id="fc-meaning" class="panel-meaning"></p>
+                  <h3 class="panel-title">Examples</h3>
+                  <div id="fc-examples" class="panel-examples"></div>
+                  <div id="fc-note" class="panel-note" hidden></div>
+                </section>
+
+                <section class="back-panel">
+                  <h3 class="panel-title">Conjugation</h3>
+                  <div id="fc-tense-tabs" class="tense-tabs" role="tablist"></div>
+                  <div id="fc-conjugation" class="conjugation-table"></div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-buttons">
+          <button id="fc-prev" class="btn-nav">← Previous</button>
+          <button id="fc-known-btn" class="btn-known">Mark known</button>
+          <button id="fc-next" class="btn-nav">Next →</button>
+        </div>
+
+        <p class="keyboard-hint">
+          <kbd>←</kbd> <kbd>→</kbd> navigate · <kbd>Space</kbd> flip · <kbd>K</kbd> mark known · <kbd>P</kbd> pronounce
+        </p>
+      </div>
+    </section>
+
+    <section id="section-vocab" class="content-section vocab-section-root">
+
+      <div class="vocab-layout">
+
+        <!-- Sidebar overlay backdrop (mobile) -->
+        <div class="vocab-sidebar-backdrop" id="vocab-sidebar-backdrop"></div>
+
+        <!-- Sidebar -->
+        <aside class="vocab-sidebar" id="vocab-sidebar" aria-label="Vocabulary categories">
+          <div class="vocab-sidebar-header">
+            <span class="vocab-sidebar-heading">Categories</span>
+            <button class="vocab-sidebar-close" id="vocab-sidebar-close" aria-label="Close sidebar">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+            </button>
+          </div>
+          <nav id="vocab-sidebar-nav" class="vocab-sidebar-nav"></nav>
+        </aside>
+
+        <!-- Main content -->
+        <div class="vocab-main" id="vocab-main">
+          <button class="vocab-sidebar-toggle" id="vocab-sidebar-toggle" aria-label="Open categories">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+            Categories
+          </button>
+          <div id="vocab-content" class="vocab-content"></div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="section-phrases" class="content-section">
+      <div class="phrases-container">
+        <div id="phrases-tab-bar" class="phrases-tab-bar"></div>
+        <div id="phrases-list" class="phrases-list"></div>
+      </div>
+    </section>
+
+    <section id="section-grammar" class="content-section">
+      <div id="grammar-topic-view" class="grammar-topic-view">
+        <div id="grammar-level-btns" class="grammar-level-btns"></div>
+        <div id="grammar-topic-grid" class="grammar-topic-grid"></div>
+      </div>
+      <div id="grammar-lesson-view" class="grammar-hidden"></div>
+    </section>
+
+    <section id="section-quiz" class="content-section coming-soon-section">
+      <div class="coming-soon">
+        <div class="coming-soon-icon">🎯</div>
+        <h2>Quiz mode</h2>
+        <p>Conjugation drills, sentence cloze, and English→Italian production. Coming soon.</p>
+      </div>
+    </section>
+
+    <section id="section-stories" class="content-section coming-soon-section">
+      <div class="coming-soon">
+        <div class="coming-soon-icon">📖</div>
+        <h2>Short Stories</h2>
+        <p>Graded Italian short stories with vocabulary highlights and translations. Coming soon.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Lingua Italiana · Built for Italian learners · Self-hosted, no tracking</p>
+    <p class="footer-credit">Created by Mohsen · <a href="mailto:mohsen@gmail.com" class="footer-email">Contact us: mohsen@gmail.com</a></p>
+  </footer>
+
+  <script src="verbs.js"></script>
+  <script src="app.js"></script>
+  <script src="vocab.js"></script>
+  <script src="grammar.js"></script>
+  <script src="phrases.js"></script>
+</body>
+</html>
