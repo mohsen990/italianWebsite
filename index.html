@@ -26,7 +26,7 @@
         <li><a href="#" class="nav-link" data-section="phrases">Phrases</a></li>
         <li><a href="#" class="nav-link" data-section="grammar">Grammar</a></li>
         <li><a href="#" class="nav-link" data-section="quiz">Quiz <span class="soon">soon</span></a></li>
-        <li><a href="#" class="nav-link" data-section="stories">Stories <span class="soon">soon</span></a></li>
+        <li><a href="#" class="nav-link" data-section="stories">Stories</a></li>
       </ul>
     </div>
   </nav>
@@ -123,6 +123,19 @@
               <span class="home-card-en">Grammar</span>
               <p class="home-card-desc">16 lessons · rules, tables, examples &amp; quizzes</p>
               <span class="home-card-cta">Start learning →</span>
+            </div>
+          </button>
+
+          <button class="home-card home-card-live" data-section="stories">
+            <div class="home-card-top hc-teal">
+              <span class="home-card-emoji">📚</span>
+              <span class="home-card-chip hc-chip-teal">10 stories</span>
+            </div>
+            <div class="home-card-body">
+              <span class="home-card-it">Storie</span>
+              <span class="home-card-en">Short Stories</span>
+              <p class="home-card-desc">Graded A1–A2 stories with audio and key vocabulary</p>
+              <span class="home-card-cta">Start reading →</span>
             </div>
           </button>
 
@@ -293,12 +306,8 @@
       </div>
     </section>
 
-    <section id="section-stories" class="content-section coming-soon-section">
-      <div class="coming-soon">
-        <div class="coming-soon-icon">📖</div>
-        <h2>Short Stories</h2>
-        <p>Graded Italian short stories with vocabulary highlights and translations. Coming soon.</p>
-      </div>
+    <section id="section-stories" class="content-section">
+      <div id="stories-root" class="stories-root"></div>
     </section>
 
   </main>
@@ -313,5 +322,6 @@
   <script src="vocab.js"></script>
   <script src="grammar.js"></script>
   <script src="phrases.js"></script>
+  <script src="stories.js"></script>
 </body>
 </html>
